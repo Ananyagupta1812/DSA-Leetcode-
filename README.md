@@ -1,4 +1,4 @@
-## neetcode 150-
+## NEETCODE 150-
 
 This repository contains the solutions of Neetcode-150 in C++. The topics included are- 
 1. Arrays and Hashing 
