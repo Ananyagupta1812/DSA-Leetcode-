@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+
+//SQUARE PATTERN
+int main() {
+    int n;
+    cin >>n;
+
+    for (int i=1; i<=n ; i++){
+        for (int j=1; j<=n; j++){
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+//CHARCATER SQUARE 
+int main() {
+    int n;
+    cin >>n;
+
+    for (int i=0; i<n ; i++){
+        char ch= 'A';
+        for (int j=0; j<n; j++){
+            cout<<ch<<" ";
+            ch=ch+1; //ascii value of A is 65-> here 65+1=66, now to get stored in a char 
+            //variable again implicit type conversion will happen and it will be vhanged to 'B'
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+//INCREASING NUMBER 
+int main() {
+    int n;
+    cin >>n;
+    int num =1; 
+
+    for (int i=0; i<n ; i++){
+        for (int j=0; j<n; j++){
+            cout<<num;
+            num++;
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+//
