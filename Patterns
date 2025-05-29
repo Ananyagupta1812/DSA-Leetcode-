@@ -34,7 +34,7 @@ int main() {
     return 0;
 }
 
-//INCREASING NUMBER 
+//INCREASING NUMBERS
 int main() {
     int n;
     cin >>n;
@@ -51,4 +51,19 @@ int main() {
     return 0;
 }
 
-//
+//INCREASING CHARACTERS
+int main() {
+    int n;
+    cin >>n;
+    char ch ='A'; 
+
+    for (int i=0; i<n ; i++){
+        for (int j=0; j<n; j++){
+            cout<<ch;
+            ch++;
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
