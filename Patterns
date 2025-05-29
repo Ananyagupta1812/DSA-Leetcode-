@@ -83,7 +83,7 @@ int main() {
     return 0;
 }
 
-//TRIANGLE PATTERN WITH INCREASING NUMBERS
+//TRIANGLE PATTERN WITH INCREASING NUMBERS 1 
 int main() {
     int n;
     cin >>n;
@@ -94,6 +94,22 @@ int main() {
             cout<<var;
         }
         var++;
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+//TRIANGLE PATTERN WITH INCREASING NUMBERS 2
+int main() {
+    int n;
+    cin >>n;
+    int var=1;
+    for (int i=0; i<n ; i++){
+        for (int j=0; j<i+1; j++){
+            cout<<var<<" ";
+            var++;
+        }
         cout<<endl;
     }
 
